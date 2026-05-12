@@ -1,3 +1,9 @@
+.blank{
+  color: rgb(219, 54, 81);
+  font-size: 24px;
+}
+
+
 .App {
   text-align: center;
 }
