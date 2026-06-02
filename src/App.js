@@ -1,6 +1,6 @@
 import './App.css';
 
-import React, {Component} from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import {
@@ -9,8 +9,7 @@ import {
   Route
 } from "react-router-dom";
 
-export default class App extends Component {
-  render() {
+const App = () => {
     return (
       <div>
         <Router>
@@ -29,4 +28,4 @@ export default class App extends Component {
       </div>
     );
   }
-}
+export default App;
